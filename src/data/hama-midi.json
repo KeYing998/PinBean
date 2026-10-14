@@ -1,0 +1,839 @@
+{
+  "id": "hama-midi-5mm",
+  "name": "Hama Midi · 5mm · 88 色",
+  "version": "2026-10-15",
+  "verified": false,
+  "compatibility": "hama-midi-5mm",
+  "sources": [
+    {
+      "title": "Hama 官方 Midi 色号表",
+      "url": "https://www.hama.dk/media/104516/nuancier-midiplusmini.pdf"
+    },
+    {
+      "title": "Hama 官方色号历史",
+      "url": "https://www.hama.dk/media/102804/timeline-fr.pdf"
+    },
+    {
+      "title": "BeadColors RGB 与名称（MIT）",
+      "url": "https://github.com/maxcleme/beadcolors/blob/master/raw/hama.csv"
+    }
+  ],
+  "note": "Midi 5mm 系列参考色盘，不是单一套装或完整最新目录。RGB 来源于 MIT BeadColors 社区数据，排除已停用 H25/H39/H40/H41。透明、霓虹、荧光、夜光和金属效果色仅供手动选择，默认不参与自动匹配。",
+  "beads": [
+    {
+      "id": "hama:midi:5mm:H01",
+      "code": "H01",
+      "name": "White",
+      "hex": "#E5ECF1",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H02",
+      "code": "H02",
+      "name": "Cream",
+      "hex": "#E4E4C5",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H03",
+      "code": "H03",
+      "name": "Yellow",
+      "hex": "#E9C704",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H04",
+      "code": "H04",
+      "name": "Orange",
+      "hex": "#D14803",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H05",
+      "code": "H05",
+      "name": "Red",
+      "hex": "#B4060E",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H06",
+      "code": "H06",
+      "name": "Pink",
+      "hex": "#EA8AA5",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H07",
+      "code": "H07",
+      "name": "Purple",
+      "hex": "#712297",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H08",
+      "code": "H08",
+      "name": "Blue",
+      "hex": "#0239A3",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H09",
+      "code": "H09",
+      "name": "Light Blue",
+      "hex": "#025BC3",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H10",
+      "code": "H10",
+      "name": "Green",
+      "hex": "#027643",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H11",
+      "code": "H11",
+      "name": "Light Green",
+      "hex": "#19CDA7",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H12",
+      "code": "H12",
+      "name": "Brown",
+      "hex": "#3E271A",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H13",
+      "code": "H13",
+      "name": "Transparent Red",
+      "hex": "#C02435",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H14",
+      "code": "H14",
+      "name": "Transparent Yellow",
+      "hex": "#E4AA32",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H15",
+      "code": "H15",
+      "name": "Transparent Blue",
+      "hex": "#487ED5",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H16",
+      "code": "H16",
+      "name": "Transparent Green",
+      "hex": "#37B876",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H17",
+      "code": "H17",
+      "name": "Grey",
+      "hex": "#838F98",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H18",
+      "code": "H18",
+      "name": "Black",
+      "hex": "#141315",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H19",
+      "code": "H19",
+      "name": "Clear",
+      "hex": "#D8D2CE",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H20",
+      "code": "H20",
+      "name": "Reddish Brown",
+      "hex": "#8D2A0F",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H21",
+      "code": "H21",
+      "name": "Light Brown",
+      "hex": "#BE6C21",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H22",
+      "code": "H22",
+      "name": "Dark Red",
+      "hex": "#91020A",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H24",
+      "code": "H24",
+      "name": "Translucent Purple",
+      "hex": "#683E9A",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H26",
+      "code": "H26",
+      "name": "Matt Rose",
+      "hex": "#E8A498",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H27",
+      "code": "H27",
+      "name": "Beige",
+      "hex": "#DCB18E",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H28",
+      "code": "H28",
+      "name": "Dark Green",
+      "hex": "#1E2C1C",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H29",
+      "code": "H29",
+      "name": "Claret",
+      "hex": "#BF0142",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H30",
+      "code": "H30",
+      "name": "Burgundy",
+      "hex": "#4E0C1B",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H31",
+      "code": "H31",
+      "name": "Turquoise",
+      "hex": "#489AB9",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H32",
+      "code": "H32",
+      "name": "Neon Fuchsia",
+      "hex": "#FF208D",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H33",
+      "code": "H33",
+      "name": "Cerise",
+      "hex": "#FF3956",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H34",
+      "code": "H34",
+      "name": "Neon Yellow",
+      "hex": "#E5EF13",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H35",
+      "code": "H35",
+      "name": "Neon Red",
+      "hex": "#FF2833",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H36",
+      "code": "H36",
+      "name": "Neon Blue",
+      "hex": "#2353B0",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H37",
+      "code": "H37",
+      "name": "Neon Green",
+      "hex": "#06B73C",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H38",
+      "code": "H38",
+      "name": "Neon Orange",
+      "hex": "#FD8600",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H42",
+      "code": "H42",
+      "name": "Fluorescent Green",
+      "hex": "#0CBD51",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H43",
+      "code": "H43",
+      "name": "Pastel Yellow",
+      "hex": "#E7E45A",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H44",
+      "code": "H44",
+      "name": "Pastel Red",
+      "hex": "#F96160",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H45",
+      "code": "H45",
+      "name": "Pastel Purple",
+      "hex": "#8E69CD",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H46",
+      "code": "H46",
+      "name": "Pastel Blue",
+      "hex": "#51AEE4",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H47",
+      "code": "H47",
+      "name": "Pastel Green",
+      "hex": "#80DF96",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H48",
+      "code": "H48",
+      "name": "Pastel Pink",
+      "hex": "#D67AD1",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H49",
+      "code": "H49",
+      "name": "Azure",
+      "hex": "#0FACD1",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H55",
+      "code": "H55",
+      "name": "Green (Glow in the Dark)",
+      "hex": "#FAF8ED",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H56",
+      "code": "H56",
+      "name": "Red (Glow in the Dark)",
+      "hex": "#EDBF9F",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H57",
+      "code": "H57",
+      "name": "Blue (Glow in the Dark)",
+      "hex": "#C4D0E3",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H60",
+      "code": "H60",
+      "name": "Teddybear Brown",
+      "hex": "#F0981E",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H61",
+      "code": "H61",
+      "name": "Gold",
+      "hex": "#D99350",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H62",
+      "code": "H62",
+      "name": "Silver",
+      "hex": "#48474A",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H63",
+      "code": "H63",
+      "name": "Bronze",
+      "hex": "#42312F",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H64",
+      "code": "H64",
+      "name": "Pearl",
+      "hex": "#EFEBE4",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H70",
+      "code": "H70",
+      "name": "Light Grey",
+      "hex": "#A5B3C0",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H71",
+      "code": "H71",
+      "name": "Dark Grey",
+      "hex": "#445059",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H72",
+      "code": "H72",
+      "name": "Translucent Pink",
+      "hex": "#F097B0",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H73",
+      "code": "H73",
+      "name": "Translucent Aqua",
+      "hex": "#59AEF5",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H74",
+      "code": "H74",
+      "name": "Translucent Lilac",
+      "hex": "#5B55BD",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "hama:midi:5mm:H75",
+      "code": "H75",
+      "name": "Tan",
+      "hex": "#B78C6D",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H76",
+      "code": "H76",
+      "name": "Nougat",
+      "hex": "#8A5937",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H77",
+      "code": "H77",
+      "name": "Cloudy White",
+      "hex": "#CED1C8",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H78",
+      "code": "H78",
+      "name": "Light Peach",
+      "hex": "#F7C1AA",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H79",
+      "code": "H79",
+      "name": "Apricot",
+      "hex": "#F87633",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H82",
+      "code": "H82",
+      "name": "Plum",
+      "hex": "#91175A",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H83",
+      "code": "H83",
+      "name": "Petrol Blue",
+      "hex": "#037A9F",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H84",
+      "code": "H84",
+      "name": "Olive Green",
+      "hex": "#687836",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H95",
+      "code": "H95",
+      "name": "Pastel Rose",
+      "hex": "#DD9BA3",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H96",
+      "code": "H96",
+      "name": "Pastel Lilac",
+      "hex": "#B491AD",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H97",
+      "code": "H97",
+      "name": "Pastel Ice Blue",
+      "hex": "#8AAFC2",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H98",
+      "code": "H98",
+      "name": "Pastel Mint",
+      "hex": "#94CCA4",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H101",
+      "code": "H101",
+      "name": "Eucalyptus",
+      "hex": "#A9C39B",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H102",
+      "code": "H102",
+      "name": "Forest Green",
+      "hex": "#356B2D",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H103",
+      "code": "H103",
+      "name": "Light Yellow",
+      "hex": "#FFE660",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H104",
+      "code": "H104",
+      "name": "Lime",
+      "hex": "#BCD122",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H105",
+      "code": "H105",
+      "name": "Light Apricot",
+      "hex": "#FFAC78",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H106",
+      "code": "H106",
+      "name": "Light Lavender",
+      "hex": "#CCC5ED",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H107",
+      "code": "H107",
+      "name": "Lavender",
+      "hex": "#6A87C1",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H108",
+      "code": "H108",
+      "name": "Aubergine",
+      "hex": "#2A2536",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H109",
+      "code": "H109",
+      "name": "Cloudy Grey",
+      "hex": "#8A847F",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H110",
+      "code": "H110",
+      "name": "Matcha",
+      "hex": "#838956",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H111",
+      "code": "H111",
+      "name": "Dark Blush",
+      "hex": "#835854",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H112",
+      "code": "H112",
+      "name": "Blush",
+      "hex": "#AD8A82",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H113",
+      "code": "H113",
+      "name": "Aqua",
+      "hex": "#5F887B",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H114",
+      "code": "H114",
+      "name": "Cherry Red",
+      "hex": "#9A2C31",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H115",
+      "code": "H115",
+      "name": "Bright Green",
+      "hex": "#6E975F",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H116",
+      "code": "H116",
+      "name": "Midnight Blue",
+      "hex": "#222838",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H117",
+      "code": "H117",
+      "name": "Taupe Grey",
+      "hex": "#777169",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H118",
+      "code": "H118",
+      "name": "Maroon Red",
+      "hex": "#612932",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    },
+    {
+      "id": "hama:midi:5mm:H119",
+      "code": "H119",
+      "name": "Sky Blue",
+      "hex": "#4167B4",
+      "brand": "Hama",
+      "series": "Midi",
+      "size": "5mm"
+    }
+  ]
+}

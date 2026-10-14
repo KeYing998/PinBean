@@ -1,0 +1,22 @@
+import { chromium } from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000},acceptDownloads:true});
+await page.route('**/*',route=>{const host=new URL(route.request().url()).hostname;return host==='127.0.0.1'||host==='localhost'?route.continue():route.abort();});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(process.argv[2]||'http://127.0.0.1:5173/');await page.getByRole('button',{name:'使用小蘑菇示例',exact:true}).click();await page.getByText('已自动保存到本机').waitFor();
+fs.mkdirSync('test-results',{recursive:true});await page.screenshot({path:'test-results/desktop.png',fullPage:true});
+
+await page.getByRole('button',{name:'画笔 B',exact:true}).click();
+const canvas=page.locator('.canvas-scroll canvas');const box=await canvas.boundingBox();await page.mouse.click(box.x+50,box.y+50);
+await page.getByRole('button',{name:'撤销',exact:true}).click();await page.getByRole('button',{name:'重做',exact:true}).click();
+await page.getByRole('button',{name:'方案与版本',exact:true}).click();await page.getByPlaceholder('例如：六色精简方案').fill('浏览器验收版本');await page.getByRole('button',{name:'保存版本',exact:true}).click();await page.getByRole('button',{name:'关闭',exact:true}).click();
+await page.getByRole('button',{name:'应用配色',exact:true}).click();await page.getByRole('button',{name:'应用修改',exact:true}).waitFor();await page.getByRole('button',{name:'应用修改',exact:true}).click();
+await page.getByRole('button',{name:'豆板布局',exact:true}).click();await page.getByRole('button',{name:'标记完成',exact:true}).click();await page.getByRole('button',{name:'在图纸上显示豆板',exact:true}).click();
+await page.getByRole('button',{name:'导出图纸',exact:true}).click();const pdfPromise=page.waitForEvent('download');await page.getByRole('button',{name:'下载 PDF',exact:true}).click();const pdf=await pdfPromise;await pdf.saveAs('test-results/export.pdf');
+await page.getByRole('button',{name:'导出图纸',exact:true}).click();await page.getByRole('button',{name:'PNG 图纸包',exact:false}).click();const zipPromise=page.waitForEvent('download');await page.getByRole('button',{name:'下载 PNG',exact:true}).click();const zip=await zipPromise;await zip.saveAs('test-results/export.zip');
+await page.getByText('已自动保存到本机').waitFor();await page.reload();await page.getByRole('button',{name:'继续编辑',exact:true}).click();await page.getByText('已自动保存到本机').waitFor();
+await page.getByRole('button',{name:'方案与版本',exact:true}).click();await page.getByText('浏览器验收版本',{exact:true}).waitFor();await page.getByRole('button',{name:'关闭',exact:true}).click();
+await page.screenshot({path:'test-results/editor.png',fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:'test-results/mobile.png',fullPage:true});
+if(errors.length)throw Error(errors.join('\n'));
+console.log(JSON.stringify({status:'passed',errors,pdf:fs.statSync('test-results/export.pdf').size,zip:fs.statSync('test-results/export.zip').size}));await browser.close();

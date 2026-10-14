@@ -1,0 +1,403 @@
+{
+  "id": "perler-standard-22000-multimix",
+  "name": "Perler 22,000 Multi-Mix · 30 色",
+  "version": "2026-10-14",
+  "verified": true,
+  "compatibility": "perler-standard-5mm",
+  "sources": [
+    {
+      "title": "Perler 官方套装 SKU 17000：30 色成员",
+      "url": "https://perler.com/products/22-000-perler-beads-multi-mix"
+    },
+    {
+      "title": "Perler 官方标准单包尺寸与色号示例",
+      "url": "https://perler.com/products/1-000-perler-beads-white"
+    },
+    {
+      "title": "BeadColors 原始 Perler RGB 数据（MIT，社区参考）",
+      "url": "https://github.com/maxcleme/beadcolors/blob/master/raw/perler.csv"
+    },
+    {
+      "title": "BeadColors MIT license",
+      "url": "https://github.com/maxcleme/beadcolors/blob/master/LICENSE"
+    },
+    {
+      "title": "Perler 官方 White · 80-19001",
+      "url": "https://perler.com/products/1-000-perler-beads-white"
+    },
+    {
+      "title": "Perler 官方 Yellow · 80-19003",
+      "url": "https://perler.com/products/1-000-perler-beads-yellow"
+    },
+    {
+      "title": "Perler 官方 Red · 80-19005",
+      "url": "https://perler.com/products/1-000-perler-beads-red"
+    },
+    {
+      "title": "Perler 官方 Purple · 80-19007",
+      "url": "https://perler.com/products/1-000-perler-beads-purple"
+    },
+    {
+      "title": "Perler 官方 Dark Blue · 80-19008",
+      "url": "https://perler.com/products/1-000-perler-beads-dark-blue"
+    },
+    {
+      "title": "Perler 官方 Light Blue · 80-19009",
+      "url": "https://perler.com/products/1-000-perler-beads-light-blue"
+    },
+    {
+      "title": "Perler 官方 Dark Green · 80-19010",
+      "url": "https://perler.com/products/1-000-perler-beads-dark-green"
+    },
+    {
+      "title": "Perler 官方 Brown · 80-19012",
+      "url": "https://perler.com/products/1-000-perler-beads-brown"
+    },
+    {
+      "title": "Perler 官方 Grey · 80-19017",
+      "url": "https://perler.com/products/1-000-perler-beads-gray"
+    },
+    {
+      "title": "Perler 官方 Black · 80-19018",
+      "url": "https://perler.com/products/1-000-perler-beads-black"
+    },
+    {
+      "title": "Perler 官方 Light Brown · 80-19021",
+      "url": "https://perler.com/products/1-000-perler-beads-light-brown"
+    },
+    {
+      "title": "Perler 官方 Tan · 80-19035",
+      "url": "https://perler.com/products/1-000-perler-beads-tan"
+    },
+    {
+      "title": "Perler 官方 Pastel Green · 80-19053",
+      "url": "https://perler.com/products/1-000-perler-beads-pastel-green"
+    },
+    {
+      "title": "Perler 官方 Pastel Lavender · 80-19054",
+      "url": "https://perler.com/products/1-000-perler-beads-pastel-lavender"
+    },
+    {
+      "title": "Perler 官方 Cheddar · 80-19057",
+      "url": "https://perler.com/products/1-000-perler-beads-cheddar"
+    },
+    {
+      "title": "Perler 官方 Toothpaste · 80-19058",
+      "url": "https://perler.com/products/1-000-perler-beads-toothpaste"
+    },
+    {
+      "title": "Perler 官方 Hot Coral · 80-19059",
+      "url": "https://perler.com/products/1-000-perler-beads-hot-coral"
+    },
+    {
+      "title": "Perler 官方 Plum · 80-19060",
+      "url": "https://perler.com/products/1-000-perler-beads-plum"
+    },
+    {
+      "title": "Perler 官方 Kiwi Lime · 80-19061",
+      "url": "https://perler.com/products/1-000-perler-beads-kiwi-lime"
+    },
+    {
+      "title": "Perler 官方 Turquoise · 80-19062",
+      "url": "https://perler.com/products/1-000-perler-beads-turquoise"
+    },
+    {
+      "title": "Perler 官方 Blush · 80-19063",
+      "url": "https://perler.com/products/1-000-perler-beads-blush"
+    },
+    {
+      "title": "Perler 官方 Pink · 80-19083",
+      "url": "https://perler.com/products/1-000-perler-beads-pink"
+    },
+    {
+      "title": "Perler 官方 Raspberry · 80-19088",
+      "url": "https://perler.com/products/1-000-perler-beads-raspberry"
+    },
+    {
+      "title": "Perler 官方 Butterscotch · 80-19090",
+      "url": "https://perler.com/products/1-000-perler-beads-butterscotch"
+    },
+    {
+      "title": "Perler 官方 Parrot Green · 80-19091",
+      "url": "https://perler.com/products/1-000-perler-beads-parrot-green"
+    }
+  ],
+  "note": "真实售卖套装 SKU 17000，30 个颜色名称已核实官方套装页。25 个实色单包编号已逐项核对官方商品页；RGB 来自 MIT 社区 BeadColors（贡献者 Perlervault），非官方实物标准。Clear 与四个 Neon 未核实单包编号，code 保留官方颜色名称，HEX 仅用于展示近似，不参与自动匹配。透明/荧光不能以单个屏幕 RGB 准确表示。各色库存数量未知，不按 22,000/30 推定。兼容键限同品牌 Standard 系列；不代表与 Mini、Caps、Biggie 或其他品牌可混熨。",
+  "beads": [
+    {
+      "id": "perler:standard:5mm:80-19001",
+      "code": "80-19001",
+      "name": "White",
+      "hex": "#EAEFEE",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19003",
+      "code": "80-19003",
+      "name": "Yellow",
+      "hex": "#E7CE3E",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19005",
+      "code": "80-19005",
+      "name": "Red",
+      "hex": "#B0353C",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19007",
+      "code": "80-19007",
+      "name": "Purple",
+      "hex": "#684B86",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19008",
+      "code": "80-19008",
+      "name": "Dark Blue",
+      "hex": "#0E5092",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19009",
+      "code": "80-19009",
+      "name": "Light Blue",
+      "hex": "#278CC9",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19010",
+      "code": "80-19010",
+      "name": "Dark Green",
+      "hex": "#007B4E",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19012",
+      "code": "80-19012",
+      "name": "Brown",
+      "hex": "#674C44",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19017",
+      "code": "80-19017",
+      "name": "Grey",
+      "hex": "#909497",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19018",
+      "code": "80-19018",
+      "name": "Black",
+      "hex": "#323234",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19021",
+      "code": "80-19021",
+      "name": "Light Brown",
+      "hex": "#936848",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19035",
+      "code": "80-19035",
+      "name": "Tan",
+      "hex": "#C5AC90",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19053",
+      "code": "80-19053",
+      "name": "Pastel Green",
+      "hex": "#6DCC94",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19054",
+      "code": "80-19054",
+      "name": "Pastel Lavender",
+      "hex": "#937FBF",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19057",
+      "code": "80-19057",
+      "name": "Cheddar",
+      "hex": "#FBB146",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19058",
+      "code": "80-19058",
+      "name": "Toothpaste",
+      "hex": "#96D1D4",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19059",
+      "code": "80-19059",
+      "name": "Hot Coral",
+      "hex": "#DD595B",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19060",
+      "code": "80-19060",
+      "name": "Plum",
+      "hex": "#A75D9D",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19061",
+      "code": "80-19061",
+      "name": "Kiwi Lime",
+      "hex": "#69B845",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19062",
+      "code": "80-19062",
+      "name": "Turquoise",
+      "hex": "#0098C5",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19063",
+      "code": "80-19063",
+      "name": "Blush",
+      "hex": "#F99297",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19083",
+      "code": "80-19083",
+      "name": "Pink",
+      "hex": "#D45496",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19088",
+      "code": "80-19088",
+      "name": "Raspberry",
+      "hex": "#983864",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19090",
+      "code": "80-19090",
+      "name": "Butterscotch",
+      "hex": "#DA9964",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:80-19091",
+      "code": "80-19091",
+      "name": "Parrot Green",
+      "hex": "#009188",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm"
+    },
+    {
+      "id": "perler:standard:5mm:kit-17000-clear",
+      "code": "Clear",
+      "name": "Clear",
+      "hex": "#E4E8E8",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "perler:standard:5mm:kit-17000-neon-yellow",
+      "code": "Neon Yellow",
+      "name": "Neon Yellow",
+      "hex": "#F6FF00",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "perler:standard:5mm:kit-17000-neon-orange",
+      "code": "Neon Orange",
+      "name": "Neon Orange",
+      "hex": "#FF6A00",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "perler:standard:5mm:kit-17000-neon-green",
+      "code": "Neon Green",
+      "name": "Neon Green",
+      "hex": "#3EFF32",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm",
+      "autoMatch": false
+    },
+    {
+      "id": "perler:standard:5mm:kit-17000-neon-pink",
+      "code": "Neon Pink",
+      "name": "Neon Pink",
+      "hex": "#FF36AE",
+      "brand": "Perler",
+      "series": "Standard",
+      "size": "5mm",
+      "autoMatch": false
+    }
+  ]
+}

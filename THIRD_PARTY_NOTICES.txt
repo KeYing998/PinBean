@@ -1,0 +1,39 @@
+# Third-party notices
+
+## BeadColors reference RGB data
+
+Source: https://github.com/maxcleme/beadcolors
+Data: https://github.com/maxcleme/beadcolors/blob/master/raw/perler.csv
+License: https://github.com/maxcleme/beadcolors/blob/master/LICENSE
+
+The Perler Standard screen reference RGB values used in `src/data/perler.json` and `src/data/perler-6000.json` are derived from BeadColors; relevant rows credit contributor Perlervault. HEX values are conversions of those RGB values. These are community reference values, not official Perler manufacturing color specifications. Clear and Neon display placeholders are authored approximations and excluded from automatic matching.
+
+The original license follows in full.
+
+Additional catalogs (2026-10-15): `src/data/hama-midi.json` uses BeadColors `raw/hama.csv` RGB/name rows under this same MIT license. `src/data/artkal-s.json` uses names from `raw/artkal_s.csv` under MIT, with numerical RGB facts transcribed from Artkal's published 2024 S Midi RGB chart. Raw CSV snapshots and the Artkal PDF are retained in data-sources/; download links and catalog scope remain in the JSON metadata for maintenance. These metadata are not shown in the user interface.
+
+```text
+MIT License
+
+Copyright (c) 2020 maxcleme
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## Perler product identities
+
+Product names, kit membership and single-color product codes are referenced from linked Perler official product pages. Perler is a brand of Advantus Corp. This local tool is not presented as an official Perler product. No official product photos are bundled.

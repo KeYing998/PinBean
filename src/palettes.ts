@@ -1,0 +1,10 @@
+import perler from './data/perler.json';
+import perler6000 from './data/perler-6000.json';
+import artkal from './data/artkal-s.json';
+import hama from './data/hama-midi.json';
+import { validatePalette } from './model';
+export const defaultPalette=validatePalette(perler);
+export const bucketPalette=validatePalette(perler6000);
+export const artkalPalette=validatePalette(artkal);
+export const hamaPalette=validatePalette(hama);
+export const builtInPalettes=[defaultPalette,bucketPalette,artkalPalette,hamaPalette];
